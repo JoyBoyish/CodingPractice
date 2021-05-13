@@ -1,0 +1,3 @@
+/Users/joe/Codes/QtProjects/Practice/code1/build-code1-Desktop_Qt_5_13_1_clang_64bit-Release/CMakeFiles/rebuild_cache.dir
+/Users/joe/Codes/QtProjects/Practice/code1/build-code1-Desktop_Qt_5_13_1_clang_64bit-Release/CMakeFiles/edit_cache.dir
+/Users/joe/Codes/QtProjects/Practice/code1/build-code1-Desktop_Qt_5_13_1_clang_64bit-Release/CMakeFiles/code1.dir
