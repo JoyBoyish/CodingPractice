@@ -41,7 +41,21 @@ int countOne_(long number) {
 
 // Solution 3
 int countOne__(long number) {
+    //
+    int count = 0;
 
+    long d = number / 10;
+    long r = number%10;
+    count += r == 1? 1: 0;
+
+    while(d > 0) {
+        r = d % 10;
+        d /= 10;
+
+        count += r == 1? 1: 0;
+    }
+
+    return count;
 }
 
 
@@ -51,4 +65,5 @@ int main() {
 
     cout << countOne(n) << endl;
     cout << countOne_(n) << endl;
+    cout << countOne__(n) << endl;
 }
